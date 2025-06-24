@@ -8,7 +8,7 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 
-export default async function Home() {
+export default  function Home() {
 
   return (
     <div suppressHydrationWarning >
