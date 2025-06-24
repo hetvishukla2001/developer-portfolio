@@ -7,7 +7,6 @@ import dynamic from "next/dynamic";
 
 const AnimationLottie = dynamic(() => import("../../helper/animation-lottie"), { ssr: false });
 
-import dynamic from 'next/dynamic';
 const GlowCard = dynamic(() => import('../../helper/glow-card'), { ssr: false });
 
 
