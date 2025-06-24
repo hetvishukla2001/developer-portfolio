@@ -2,7 +2,7 @@ export const personalData = {
   name: "Hetvi Shukla",
   profile: '/profile.png',
   designation: "fullstack development and automation",
-  description: "My name is Hetvi Shukla. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is Hetvi Shukla. I’m a passionate Software Developer with experience in full-stack development, test automation, and cloud infrastructure. I enjoy solving real-world problems through clean, scalable code and intuitive design. With strong skills in JavaScript, Python, React, and tools like Docker, Pytest, and Kibana, I’ve built efficient web applications and internal tools in agile environments. I’m a quick learner with a love for continuous improvement, always eager to explore new technologies and take on opportunities that align with my skills and passion for impactful development.",
   email: 'hetvishukla1001@gmail.com',
   phone: '+13653561910',
   address: 'Ontario, canada',
