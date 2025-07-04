@@ -1,9 +1,11 @@
 'use client';
-import { useEffect } from 'react';
+import { useEffect, useRef  } from 'react';
 
 const GlowCard = ({ children, identifier }) => {
+  const initializedRef = useRef(false);
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    if (typeof window === 'undefined' || initializedRef.current) return;
+    initializedRef.current = true;
 
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
