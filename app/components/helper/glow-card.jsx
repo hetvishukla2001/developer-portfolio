@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useRef } from 'react';
 
 const GlowCard = ({ children }) => {
@@ -5,6 +6,8 @@ const GlowCard = ({ children }) => {
   const cardRef = useRef(null);
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+
     const CONTAINER = containerRef.current;
     const CARD = cardRef.current;
 
