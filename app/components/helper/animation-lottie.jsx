@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Lottie from "lottie-react";
 
 const AnimationLottie = ({ animationPath, width }) => {
@@ -7,7 +7,7 @@ const AnimationLottie = ({ animationPath, width }) => {
       loop
       autoplay
       animationData={animationPath}
-      style={{ width: width || '95%' }}
+      style={{ width: width || "95%" }}
     />
   );
 };
