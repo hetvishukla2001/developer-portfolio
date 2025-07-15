@@ -1,3 +1,4 @@
+export const runtime = 'nodejs';
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
@@ -28,6 +29,8 @@ const generateEmailTemplate = (name, email, userMessage) => `
 
 // POST route handler
 export async function POST(request) {
+  console.log('EMAIL_ADDRESS:', process.env.EMAIL_ADDRESS);
+  console.log('GMAIL_PASSKEY set?:', !!process.env.GMAIL_PASSKEY);
   try {
     const payload = await request.json();
     const { name, email, message: userMessage } = payload;
