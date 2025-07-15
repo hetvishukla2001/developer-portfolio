@@ -7,7 +7,7 @@ export const personalData = {
   phone: '+13653561910',
   address: 'Ontario, canada',
   github: 'https://github.com/hetvishukla2001',
-  linkedIn: 'linkedin.com/in/hetvi-shukla-aa467a1ab/',
+  linkedIn: 'https://www.linkedin.com/in/hetvi-shukla-aa467a1ab',
   leetcode: "https://leetcode.com/u/Hetvi_Shukla/",
   resume: "https://drive.google.com/file/d/1JNZJ_hWdyaeSMp6uFLcD7jfgAIvdcEi9/view?usp=sharing"
 }
