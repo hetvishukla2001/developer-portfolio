@@ -9,5 +9,5 @@ export const personalData = {
   github: 'https://github.com/hetvishukla2001',
   linkedIn: 'https://www.linkedin.com/in/hetvi-shukla-aa467a1ab',
   leetcode: "https://leetcode.com/u/Hetvi_Shukla/",
-  resume: "https://drive.google.com/file/d/1JNZJ_hWdyaeSMp6uFLcD7jfgAIvdcEi9/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/17pqgDvXtzmqLNO4Lx-cvD3hui5Oy98aJ/view?usp=sharing"
 }
